@@ -1,38 +1,90 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  background-color: #2c3038;
   color: white;
+  padding: 1em 4em;
+  box-shadow: 12px 12px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
-.App-link {
-  color: #61dafb;
+.App-header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-header-logo small {
+  margin-left: 0.5em;
 }
+
+.button-primary-dark {
+  background-color: #2c3038;
+  border: solid white 2px;
+  border-radius: 4px;
+  color: white;
+  padding: 0.5em 2em;
+  cursor: pointer;
+  font-weight: lighter;
+  margin-left: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 2em 4em;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 20em;
+  background-color: #fff;
+  border: solid #9b9b9b 1px;
+  border-radius: 0.7em;
+  padding: 2em 4em;
+}
+
+.hero-image {
+  height: 15em;
+  width: auto;
+}
+
+.view-controls {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-switch-view-active {
+  color: white;
+  background-color: #0d523b;
+  padding: 0.5em 2em;
+  border: solid 2px #0d523b;
+  border-radius: 3em;
+  font-weight: 600;
+  font-size: 1em;
+  margin-right: 1em;
+  width: 7em;
+  height: auto;
+}
+
+.button-switch-view-disactive {
+  color: #0d523b;
+  background-color: white;
+  padding: 0.5em 2em;
+  border: solid 2px #0d523b;
+  border-radius: 3em;
+  font-weight: 600;
+  font-size: 1em;
+  margin-right: 1em;
+  width: 7em;
+  height: auto;
+}
+/* #282c34; */

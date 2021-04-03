@@ -1,3 +1,22 @@
+# Todo
+
+1. Change the favIcon
+1. Cleanup JS from CRA install
+
+# Needed
+
+1. Cart page
+1. Checkout page
+1. All product (Home Page)
+
+1. Filter products
+1. Add to cart
+1. Delete from cart
+1. Increment/Decrement from the count
+1. Add stripe mock payment getaway?
+1. Add filtering toolbar
+1. Save state while moving routes
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
