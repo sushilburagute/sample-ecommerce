@@ -2,6 +2,9 @@
 
 1. Change the favIcon
 1. Cleanup JS from CRA install
+1. Add react-healmet
+1. Add react-responsive-carousel
+1.
 
 # Needed
 
