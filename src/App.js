@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <ViewControls />
+      {/* <ViewControls />
       {route === "foodmenu" && <FoodMenu />}
-      {route === "cart" && <h1>Cart</h1>}
+      {route === "cart" && <h1>Cart</h1>} */}
     </div>
   );
 }
