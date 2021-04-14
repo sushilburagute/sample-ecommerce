@@ -6,7 +6,7 @@ import asset3 from "../images/asset3.jpg";
 
 export const Hero = () => {
   return (
-    <div className="flex h-32 px-36">
+    <div className="flex h-32 py-16 px-36">
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -14,20 +14,35 @@ export const Hero = () => {
         autoPlay
         emulateTouch
         swipeable
+        stopOnHover
       >
-        <div className="h-[200px] md:h-[280px] overflow-hidden">
-          <img src={asset1} alt="" />
+        <div className="overflow-hidden h-96">
+          <img
+            src={asset1}
+            alt=""
+            className="object-cover object-center h-full max-w-full"
+          />
           <p>Hello1</p>
         </div>
-        <div className="h-[200px] md:h-[280px] overflow-hidden">
-          <img src={asset2} alt="" />
+        <div className="overflow-hidden h-96">
+          <img
+            src={asset2}
+            alt=""
+            className="object-cover object-center h-full max-w-full"
+          />
           <p>Hello3</p>
         </div>
-        <div className="h-[200px] md:h-[280px] overflow-hidden">
-          <img src={asset3} alt="" />
+        <div className="overflow-hidden h-96">
+          <img
+            src={asset3}
+            alt=""
+            className="object-cover object-center h-full max-w-full"
+          />
           <p>Hello2</p>
         </div>
       </Carousel>
     </div>
   );
 };
+
+// can optimize this code better
