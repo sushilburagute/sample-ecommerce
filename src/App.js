@@ -1,17 +1,16 @@
 import { useState } from "react";
-import "./App.css";
-import { Header, Hero, ViewControls, FoodMenu } from "./components";
+import { Header, Hero, PageHeader, Layout } from "./components";
 
 function App() {
-  const [route, setRoute] = useState("foodmenu");
-  console.log(<Header />);
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      {/* <ViewControls />
-      {route === "foodmenu" && <FoodMenu />}
-      {route === "cart" && <h1>Cart</h1>} */}
+    <div id="App">
+      <div className="flex flex-col">
+        <Header />
+        <Hero />
+        <Layout>
+          <h1>Hello</h1>
+        </Layout>
+      </div>
     </div>
   );
 }

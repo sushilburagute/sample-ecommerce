@@ -43,7 +43,7 @@ export const Header = () => {
       </div>
       <div className="flex mt-1.5">
         {navLinks.map(({ label, icon, to }) => (
-          <IconLink icon={icon} label={label} t0={to} />
+          <IconLink icon={icon} label={label} t0={to} key={label} />
         ))}
       </div>
     </header>

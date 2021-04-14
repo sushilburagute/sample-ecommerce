@@ -6,7 +6,7 @@ import asset3 from "../images/asset3.jpg";
 
 export const Hero = () => {
   return (
-    <div className="flex h-32 py-16 px-36">
+    <div className="flex h-32 py-16  px-36">
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -15,6 +15,7 @@ export const Hero = () => {
         emulateTouch
         swipeable
         stopOnHover
+        className="z-10"
       >
         <div className="overflow-hidden h-96">
           <img
@@ -22,7 +23,6 @@ export const Hero = () => {
             alt=""
             className="object-cover object-center h-full max-w-full"
           />
-          <p>Hello1</p>
         </div>
         <div className="overflow-hidden h-96">
           <img
@@ -30,7 +30,6 @@ export const Hero = () => {
             alt=""
             className="object-cover object-center h-full max-w-full"
           />
-          <p>Hello3</p>
         </div>
         <div className="overflow-hidden h-96">
           <img
@@ -38,7 +37,6 @@ export const Hero = () => {
             alt=""
             className="object-cover object-center h-full max-w-full"
           />
-          <p>Hello2</p>
         </div>
       </Carousel>
     </div>
